@@ -13,7 +13,7 @@ namespace AcciTrack_Build
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Startup());
+            Application.Run(new MainForm());
         }
     }
 }
