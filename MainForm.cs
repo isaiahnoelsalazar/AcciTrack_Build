@@ -27,7 +27,8 @@ namespace AcciTrack_Build
                     pyCS.Pip(new string[]
                     {
                         "flask",
-                        "PythonSimpleFunctions"
+                        "PythonSimpleFunctions",
+                        "flask_cloudflared"
                     });
                     SimpleFileHandler.Write("pipdone", string.Empty);
                 }
